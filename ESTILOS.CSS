@@ -1,0 +1,119 @@
+.subitulos{
+  color:#779C76;
+}
+        .caja_opciones{
+          display: flex;
+          justify-content: space-around;
+          
+          
+       
+          border:10px solid #779C76;
+          border-radius: 10px;
+          margin-top: 40px;
+          margin-left: 30px;
+          margin-right: 30px;
+          margin-bottom: 30px;
+          padding-top: 0px;
+         padding-bottom: 320px;
+          
+        }
+
+      .opciones_xtra{
+          border: 5px solid black;
+          padding: 10px;
+          border-radius: 30px;
+          transition: 0.00005;
+
+      }
+      .opciones_xtra:hover{
+        border: 5px solid rgb(147, 219, 39);
+      }
+a{
+  color: black;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+      a:hover{
+          color: greenyellow;
+          
+          
+
+      }
+
+      .caja_solicitudes{
+          display: flex;
+          justify-content: space-around;
+          border:10px solid #779C76;
+          border-radius: 10px;
+          margin-top: 40px;
+          margin-left: 30px;
+          margin-right: 30px;
+          margin-bottom: 30px;
+          padding-top: 0px;
+         padding-bottom: 320px;
+          
+      }
+      .boton_aceptar{
+        border: none; 
+        color: rgb(255, 255, 255);
+                  padding: 15px 32px; 
+                  background: green;
+        text-align: center;
+        text-decoration: none; 
+        display: inline-block;
+        font-size: 9px; 
+        margin: 4px 2px;
+        cursor: pointer; 
+        border-radius: 12px; 
+        transition: background 0.5s;
+
+      }
+      .boton_aceptar:hover{
+        background: rgb(0, 226, 0);
+      }
+      .caja_totoal_user{
+        border: 5px double rgb(105, 56, 0);
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 20px;
+        border-radius: 0px 10px 60px;
+        
+      }
+      .user_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        border: 3px solid black;
+        margin: 3px;
+        padding-left: auto;
+        padding-right: auto;
+      }
+      .user_intercambio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 8px;
+        border: 3px solid black;
+        padding-left: auto;
+        padding-right: auto;
+
+      }
+
+      .boton_rechazar{
+        border: none; 
+        color: rgb(255, 255, 255);
+                  padding: 15px 32px; 
+                  background-color: red;
+        text-align: center;
+        text-decoration: none; 
+        display: inline-block;
+        font-size: 9px; 
+        margin: 4px 2px;
+        cursor: pointer; 
+        border-radius: 12px; 
+        transition: background 0.5s;
+      }
+      .boton_rechazar:hover{
+        background: rgb(134, 0, 0);
+      }
